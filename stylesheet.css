@@ -10,6 +10,7 @@ li {
   background-color: #26d0c9;
   color: #fff;
   height: 90px;
+  width: 100%;
 }
 
 .header-logo {
@@ -22,15 +23,19 @@ li {
 
 
 .main {
-  padding: 10px 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 90px;
 }
 
-
+.contents1 {
+  position: relative;
+}
 
 .copy-container h1 {
   position: absolute;
-  left: 23%;
-  margin-top: 150px;
+  margin-top: 5%;
+  margin-left: 10%;
   font-family: Quicksand, sans-serif;
   font-size: 140px;
 }
@@ -40,10 +45,14 @@ li {
   color: #ff4a4a;
 }
 
-.contents {
+.photos {
   height: 300px;
-  margin-top: 100px;
+  margin-top: 5%;
+  margin-left: 8%;
 }
+
+
+
 
 .section-title {
   border-bottom: 2px solid #dee7ec;
@@ -52,14 +61,19 @@ li {
   margin-top: 90px;
 }
 
-.contents-item {
+
+
+.photo-item {
   float: left;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
-.contents-item img {
+
+.photo-item img {
   opacity: 0.5;
 }
+
+
 
 .profile-photo {
   float: right;
@@ -96,12 +110,12 @@ li {
 .footer {
   background-color: #2f5167;
   color: #fff;
-  height: 20px;
-  padding: 40px;
+  height: 30px;
   margin-top: 100px;
 }
 
 .footer-logo {
   font-size: 25px;
-  padding-left: 500px;
+  position: absolute;
+  left: 40%;
 }
