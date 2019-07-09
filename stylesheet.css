@@ -1,0 +1,107 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #26d0c9;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  position: absolute;
+  left: 40%;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+
+
+.main {
+  padding: 10px 150px;
+}
+
+
+
+.copy-container h1 {
+  position: absolute;
+  left: 23%;
+  margin-top: 150px;
+  font-family: Quicksand, sans-serif;
+  font-size: 140px;
+}
+
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 300px;
+  margin-top: 100px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 10px;
+  margin-top: 90px;
+}
+
+.contents-item {
+  float: left;
+  margin-right: 40px;
+}
+
+.contents-item img {
+  opacity: 0.5;
+}
+
+.profile-photo {
+  float: right;
+  padding-right: 150px;
+  padding-top: 100px;
+}
+
+.profile  {
+  font-size: 24px;
+  line-height: 2.0;
+
+}
+
+.profile span{
+  font-weight: bold;
+  color: #ff7733;
+}
+
+.profile ul{
+  background: #fffde8;
+  box-shadow: 0px 0px 0px 10px #fffde8;
+  border: dashed 2px #ffb03f;
+  border-radius: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.comments {
+  font-size: 24px;
+  line-height: 2.0;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 20px;
+  padding: 40px;
+  margin-top: 100px;
+}
+
+.footer-logo {
+  font-size: 25px;
+  padding-left: 500px;
+}
